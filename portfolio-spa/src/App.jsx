@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
-import SearchBar from "./components/Searchbar";
+import SearchBar from "./components/SearchBar";
 import ProjectForm from "./components/ProjectForm";
 import ProjectList from "./components/ProjectList";
 import Footer from "./components/Footer";
@@ -12,15 +12,13 @@ function App() {
       id: 1,
       title: "Portfolio Website",
       description: "Personal portfolio built with React.",
-      image:
-        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
     },
     {
       id: 2,
       title: "E-Commerce App",
       description: "Online shopping platform UI.",
-      image:
-        "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
+      image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
     },
   ]);
 
